@@ -1,0 +1,11 @@
+# Shopify theme environments for the skincare dev store.
+# Usage: shopify theme dev -e development  |  shopify theme push -e development
+# Docs: https://shopify.dev/docs/themes/tools/cli/environments
+
+[environments.development]
+store = "cxkf3z-je.myshopify.com"
+theme = "144351199298"   # "Dev - Main" (unpublished) — safe working theme
+
+[environments.production]
+store = "cxkf3z-je.myshopify.com"
+# No theme id: targets the live theme only on explicit pull/push. Handle with care.
