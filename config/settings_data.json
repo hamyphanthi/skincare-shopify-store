@@ -9,9 +9,9 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/Logo_-_Beauty_Products_1.png",
-    "logo_height": 36,
-    "logo_height_mobile": 28,
+    "logo": "shopify://shop_images/miouvalab-logo-transparent.png",
+    "logo_height": 50,
+    "logo_height_mobile": 36,
     "page_text_color": "{{ settings.color_palette.foreground }}",
     "type_body_font": "manrope_n4",
     "type_subheading_font": "manrope_n5",
