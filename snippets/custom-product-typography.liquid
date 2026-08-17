@@ -1,0 +1,33 @@
+{%- comment -%}
+  MiouvaLab — Part 4: global product card & product page typography.
+  Applied theme-wide so every current and future SKU inherits it automatically
+  (no per-product overrides). Scheme-aware via var(--color-foreground).
+{%- endcomment -%}
+<style>
+  /* Product title — confident weight + full contrast (cards + product page) */
+  product-title,
+  product-title p,
+  a[ref="productTitleLink"] {
+    font-weight: 600 !important;
+    color: var(--color-foreground) !important;
+    opacity: 1 !important;
+  }
+
+  /* Price — confident weight, reads as a price not a caption */
+  product-price,
+  product-price .price {
+    font-weight: 600 !important;
+  }
+
+  /* Product cards — price sized to match/exceed the title, tight title→price group */
+  .product-card product-price,
+  .product-card product-price .price {
+    font-size: 1.0625rem !important; /* ~17px, >= the ~16px card title */
+  }
+  .product-card product-title {
+    margin-block-end: 3px !important; /* <= 4px so title + price read as one unit */
+  }
+  .product-card product-price {
+    margin-block-start: 0 !important;
+  }
+</style>
