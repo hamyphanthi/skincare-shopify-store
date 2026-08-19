@@ -17,7 +17,7 @@
         "announcement_BxgCk9": {
           "type": "_announcement",
           "settings": {
-            "text": "Every ingredient and concentration, published in full",
+            "text": "30-Day Returns · Free Returns on Damaged Items",
             "font": "var(--font-subheading--family)",
             "font_size": "0.75rem",
             "letter_spacing": "loose",
@@ -29,7 +29,7 @@
         "announcement_Rm4Kd2": {
           "type": "_announcement",
           "settings": {
-            "text": "Free shipping on orders over $60",
+            "text": "Free US shipping over $75",
             "font": "var(--font-subheading--family)",
             "font_size": "0.75rem",
             "letter_spacing": "loose",
