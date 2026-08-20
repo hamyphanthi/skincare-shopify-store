@@ -89,8 +89,8 @@
         "gradient_direction": "to bottom",
         "blurred_reflection": false,
         "reflection_opacity": 75,
-        "padding-block-start": 100,
-        "padding-block-end": 72
+        "padding-block-start": 96,
+        "padding-block-end": 64
       }
     },
     "product_list_fa6P9H": {
@@ -275,8 +275,8 @@
         "horizontal_alignment": "flex-start",
         "gap": 28,
         "background_color": "{{ settings.color_palette.background }}",
-        "padding-block-start": 48,
-        "padding-block-end": 48
+        "padding-block-start": 40,
+        "padding-block-end": 40
       }
     },
     "cl_categories": {
@@ -316,13 +316,13 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Shop by Category</p>",
+                "text": "<p><em>Shop by Category</em></p>",
                 "width": "fit-content",
                 "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "",
+                "alignment": "center",
+                "type_preset": "custom",
+                "font": "var(--font-accent--family)",
+                "font_size": "1.9rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
@@ -332,10 +332,36 @@
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               }
+            },
+            "text_bc98Wh_sub": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>Explore the full range across skin, makeup, hair and more.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "0.9rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "text_bc98Wh"
+            "text_bc98Wh",
+            "text_bc98Wh_sub"
           ]
         },
         "static-collection-card": {
@@ -413,8 +439,8 @@
         "section_width": "page-width",
         "gap": 12,
         "background_color": "{{ settings.color_palette.background }}",
-        "padding-block-start": 48,
-        "padding-block-end": 48
+        "padding-block-start": 40,
+        "padding-block-end": 40
       }
     },
     "cl_concerns": {
@@ -454,13 +480,13 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Shop by Concern</p>",
+                "text": "<p><em>Shop by Concern</em></p>",
                 "width": "fit-content",
                 "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "",
+                "alignment": "center",
+                "type_preset": "custom",
+                "font": "var(--font-accent--family)",
+                "font_size": "1.9rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
@@ -470,10 +496,36 @@
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               }
+            },
+            "text_bc98Wh_sub": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>Find your routine by what your skin needs.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "0.9rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "text_bc98Wh"
+            "text_bc98Wh",
+            "text_bc98Wh_sub"
           ]
         },
         "static-collection-card": {
@@ -552,143 +604,8 @@
         "section_width": "page-width",
         "gap": 12,
         "background_color": "#EAE3D7",
-        "padding-block-start": 48,
-        "padding-block-end": 48
-      }
-    },
-    "cl_formats": {
-      "type": "collection-list",
-      "blocks": {
-        "group_Lg9LkF": {
-          "type": "group",
-          "name": "t:names.header",
-          "settings": {
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "text_bc98Wh": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "text": "<p>Explore</p>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "padding-block-start": 0,
-                "padding-block-end": 16,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              }
-            }
-          },
-          "block_order": [
-            "text_bc98Wh"
-          ]
-        },
-        "static-collection-card": {
-          "type": "_collection-card",
-          "name": "t:names.collection_card",
-          "static": true,
-          "settings": {
-            "placement": "on_image",
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "flex-start",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0
-          },
-          "blocks": {
-            "collection-card-image": {
-              "type": "_collection-card-image",
-              "name": "t:names.collection_card_image",
-              "static": true,
-              "settings": {
-                "image_ratio": "adapt"
-              }
-            },
-            "collection-title": {
-              "type": "collection-title",
-              "name": "t:names.collection_title",
-              "settings": {
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "background": true,
-                "background_color": "#ffffff",
-                "padding-block-start": 4,
-                "padding-block-end": 4,
-                "padding-inline-start": 8,
-                "padding-inline-end": 8
-              }
-            }
-          },
-          "block_order": [
-            "collection-title"
-          ]
-        }
-      },
-      "block_order": [
-        "group_Lg9LkF"
-      ],
-      "settings": {
-        "collection_list": [
-          "bundles",
-          "refills",
-          "gifting",
-          "new-arrivals",
-          "best-sellers"
-        ],
-        "layout_type": "grid",
-        "carousel_on_mobile": false,
-        "columns": 3,
-        "mobile_columns": "2",
-        "columns_gap": 8,
-        "rows_gap": 8,
-        "icons_style": "arrow",
-        "icons_shape": "none",
-        "section_width": "page-width",
-        "gap": 12,
-        "background_color": "{{ settings.color_palette.background }}",
-        "padding-block-start": 48,
-        "padding-block-end": 48
+        "padding-block-start": 40,
+        "padding-block-end": 40
       }
     },
     "newsletter": {
@@ -789,49 +706,162 @@
     "founder": {
       "type": "section",
       "blocks": {
-        "f_h": {
-          "type": "text",
-          "name": "t:names.text",
+        "ftxt": {
+          "type": "group",
+          "name": "t:names.group",
           "settings": {
-            "text": "<p>A note from our founders</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "h4",
-            "font": "var(--font-body--family)",
-            "font_size": "1.75rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 14,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "open_in_new_tab": false,
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "fh": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p><em>A note from our founders</em></p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "custom",
+                "font": "var(--font-accent--family)",
+                "font_size": "1.9rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "fp1": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>We believe beauty doesn&rsquo;t need to be complicated to work. Every MiouvaLab product is built on a simple principle: ingredients that make sense, design that has a purpose, and an experience that feels good every day.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "fp2": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>This isn&rsquo;t just a product &mdash; it&rsquo;s a few seconds you take for yourself in the middle of a busy morning.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "fsig": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/miouvalab-signature.png",
+                "image_ratio": "adapt",
+                "width": "custom",
+                "custom_width": 55,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "fh",
+            "fp1",
+            "fp2",
+            "fsig"
+          ]
         },
-        "f_b": {
-          "type": "text",
-          "name": "t:names.text",
+        "fimg": {
+          "type": "image",
+          "name": "t:names.image",
           "settings": {
-            "text": "<p>[Founder statement placeholder &mdash; add your founders' message here.]</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
+            "image": "shopify://shop_images/miouvalab-founder-panel.png",
+            "image_ratio": "adapt",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 8,
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
@@ -841,240 +871,24 @@
         }
       },
       "block_order": [
-        "f_h",
-        "f_b"
+        "ftxt",
+        "fimg"
       ],
       "name": "Section",
       "settings": {
-        "content_direction": "column",
+        "content_direction": "row",
         "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
+        "horizontal_alignment": "center",
         "vertical_alignment": "center",
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
+        "gap": 48,
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
         "background_media": "none",
         "background_color": "#EAE3D7",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "padding-block-start": 56,
-        "padding-block-end": 56
-      }
-    },
-    "testimonials": {
-      "type": "section",
-      "blocks": {
-        "t_head": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>What our customers say</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "h4",
-            "font": "var(--font-body--family)",
-            "font_size": "1.75rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "t_sub": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>Reviews from verified Amazon customers</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-body--family)",
-            "font_size": "0.8125rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "rev_0": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>&ldquo;The rollerball makes the process mess-free and pleasant... makes my skincare feel a little bit more like pampering.&rdquo;</p><p>&mdash; <strong>Ajax</strong> &middot; ★★★★★</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "rev_1": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>&ldquo;The rollerball and metal tip make applying it to the delicate eye area feel like a cooling massage... my skin feels softer and more cared for.&rdquo;</p><p>&mdash; <strong>In Depth Explorer</strong> &middot; ★★★★★</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "rev_2": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>&ldquo;I really like how this feels on my skin, especially the cooling roller under the eyes. It feels refreshing.&rdquo;</p><p>&mdash; <strong>Dena</strong> &middot; ★★★★★</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "rev_3": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>&ldquo;The standout feature of this eye serum is the stainless steel rollerball applicator. The metal feels instantly ice-cold against the skin.&rdquo;</p><p>&mdash; <strong>Sam Veltre</strong> &middot; ★★★★★</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "rev_4": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>&ldquo;I whip this bad boy out and in minutes, at least my eyes look like I've had a decent night sleep!&rdquo;</p><p>&mdash; <strong>Verified Amazon Customer</strong> &middot; ★★★★★</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "t_head",
-        "t_sub",
-        "rev_0",
-        "rev_1",
-        "rev_2",
-        "rev_3",
-        "rev_4"
-      ],
-      "name": "Section",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 20,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "background_media": "none",
-        "background_color": "{{ settings.color_palette.background }}",
         "video_position": "cover",
         "background_image_position": "cover",
         "overlay_color": "#00000026",
@@ -1137,7 +951,6 @@
           }
         }
       },
-      "disabled": true,
       "settings": {
         "blog": "news",
         "layout_type": "grid",
@@ -1150,7 +963,183 @@
         "gap": 12,
         "background_color": "{{ settings.color_palette.background }}",
         "padding-block-start": 48,
-        "padding-block-end": 48
+        "padding-block-end": 56
+      }
+    },
+    "testi_head": {
+      "type": "section",
+      "blocks": {
+        "h": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><em>What our customers say</em></p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "1.9rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "s": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Reviews from verified Amazon customers</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "0.9rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "h",
+        "s"
+      ],
+      "name": "Section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "padding-block-start": 48,
+        "padding-block-end": 8
+      }
+    },
+    "testi_marquee": {
+      "type": "marquee",
+      "blocks": {
+        "m0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>★★★★★  &ldquo;The rollerball makes the process mess-free and pleasant... makes my skincare feel a little bit more like pampering.&rdquo;  &mdash; Ajax</p>",
+            "width": "fit-content",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "1.15rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap"
+          }
+        },
+        "m1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>★★★★★  &ldquo;The rollerball and metal tip make applying it to the delicate eye area feel like a cooling massage.&rdquo;  &mdash; In Depth Explorer</p>",
+            "width": "fit-content",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "1.15rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap"
+          }
+        },
+        "m2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>★★★★★  &ldquo;I really like how this feels on my skin, especially the cooling roller under the eyes. It feels refreshing.&rdquo;  &mdash; Dena</p>",
+            "width": "fit-content",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "1.15rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap"
+          }
+        },
+        "m3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>★★★★★  &ldquo;The stainless steel rollerball feels instantly ice-cold against the skin.&rdquo;  &mdash; Sam Veltre</p>",
+            "width": "fit-content",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "1.15rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap"
+          }
+        },
+        "m4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>★★★★★  &ldquo;In minutes, at least my eyes look like I've had a decent night sleep!&rdquo;  &mdash; Verified Amazon Customer</p>",
+            "width": "fit-content",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "1.15rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap"
+          }
+        }
+      },
+      "block_order": [
+        "m0",
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "movement_direction": "normal",
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 8,
+        "padding-block-end": 48,
+        "gap_between_elements": 64
       }
     }
   },
@@ -1159,9 +1148,9 @@
     "product_list_fa6P9H",
     "cl_categories",
     "cl_concerns",
-    "cl_formats",
+    "testi_head",
+    "testi_marquee",
     "founder",
-    "testimonials",
     "newsletter",
     "blog"
   ]

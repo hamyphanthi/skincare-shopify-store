@@ -1,0 +1,15 @@
+{%- comment -%} MiouvaLab — custom utility nav row (Part 5.2). Desktop only, right-aligned, small. {%- endcomment -%}
+<div class="utility-nav">
+  <nav class="utility-nav__inner" aria-label="Utility">
+    <a href="{{ pages.about.url | default: '/pages/about' }}">About Us</a>
+    <a href="{{ blogs.news.url | default: '/blogs/news' }}">Blog</a>
+    <a href="{{ pages.contact.url | default: '/pages/contact' }}">Contact Us</a>
+  </nav>
+</div>
+<style>
+  .utility-nav{ background: var(--color-background); border-bottom: 1px solid rgb(var(--color-foreground-rgb) / 0.08); }
+  .utility-nav__inner{ max-width: var(--page-width, 1200px); margin-inline: auto; display: flex; justify-content: flex-end; gap: 1.5rem; padding: 0.45rem 2rem; }
+  .utility-nav__inner a{ font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-foreground); text-decoration: none; opacity: 0.72; }
+  .utility-nav__inner a:hover{ opacity: 1; }
+  @media (max-width: 749px){ .utility-nav{ display: none; } }
+</style>
