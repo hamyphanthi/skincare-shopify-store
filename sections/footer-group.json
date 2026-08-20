@@ -96,9 +96,59 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "brand_blurb": {
+              "type": "text",
+              "settings": {
+                "text": "<p>MiouvaLab creates dermatologist-informed skincare tools and formulations &mdash; pairing clinical actives with considered design to help you care for your skin with confidence.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "0.875rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "brand_addr": {
+              "type": "text",
+              "settings": {
+                "text": "<p>5900 Balcones Drive STE 100, Austin, TX 78731<br><em>Registered Office &mdash; Administrative Only</em><br><a href=\"mailto:hello.raeva@gmail.com\">hello.raeva@gmail.com</a> &middot; <a href=\"/pages/contact\">Contact Us</a></p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "0.8125rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
+            "brand_blurb",
+            "brand_addr",
             "text_LWt8Pz",
             "text_f9CFLH"
           ]
@@ -149,7 +199,7 @@
         "footer_copyright_jweRK8": {
           "type": "footer-copyright",
           "settings": {
-            "show_powered_by": true,
+            "show_powered_by": false,
             "font_size": "0.75rem",
             "case": "none"
           },
@@ -177,8 +227,7 @@
       },
       "block_order": [
         "footer_copyright_jweRK8",
-        "footer_policy_list_VCdnpa",
-        "social_links_Ew63Kq"
+        "footer_policy_list_VCdnpa"
       ],
       "name": "t:names.utilities",
       "settings": {

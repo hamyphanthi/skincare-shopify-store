@@ -874,7 +874,7 @@
     "testimonials": {
       "type": "section",
       "blocks": {
-        "t_h": {
+        "t_head": {
           "type": "text",
           "name": "t:names.text",
           "settings": {
@@ -899,11 +899,136 @@
           },
           "blocks": {}
         },
-        "t_b": {
+        "t_sub": {
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Be the first to review &mdash; reviews appear here once a reviews app (e.g. Judge.me or Loox) is installed and real reviews exist.</p>",
+            "text": "<p>Reviews from verified Amazon customers</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "0.8125rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "rev_0": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>&ldquo;The rollerball makes the process mess-free and pleasant... makes my skincare feel a little bit more like pampering.&rdquo;</p><p>&mdash; <strong>Ajax</strong> &middot; ★★★★★</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "rev_1": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>&ldquo;The rollerball and metal tip make applying it to the delicate eye area feel like a cooling massage... my skin feels softer and more cared for.&rdquo;</p><p>&mdash; <strong>In Depth Explorer</strong> &middot; ★★★★★</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "rev_2": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>&ldquo;I really like how this feels on my skin, especially the cooling roller under the eyes. It feels refreshing.&rdquo;</p><p>&mdash; <strong>Dena</strong> &middot; ★★★★★</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "rev_3": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>&ldquo;The standout feature of this eye serum is the stainless steel rollerball applicator. The metal feels instantly ice-cold against the skin.&rdquo;</p><p>&mdash; <strong>Sam Veltre</strong> &middot; ★★★★★</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "rev_4": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>&ldquo;I whip this bad boy out and in minutes, at least my eyes look like I've had a decent night sleep!&rdquo;</p><p>&mdash; <strong>Verified Amazon Customer</strong> &middot; ★★★★★</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "center",
@@ -926,8 +1051,13 @@
         }
       },
       "block_order": [
-        "t_h",
-        "t_b"
+        "t_head",
+        "t_sub",
+        "rev_0",
+        "rev_1",
+        "rev_2",
+        "rev_3",
+        "rev_4"
       ],
       "name": "Section",
       "settings": {
@@ -938,7 +1068,7 @@
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
+        "gap": 20,
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
@@ -1006,6 +1136,7 @@
           }
         }
       },
+      "disabled": true,
       "settings": {
         "blog": "news",
         "layout_type": "grid",
