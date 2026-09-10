@@ -93,476 +93,6 @@
         "image_1": "shopify://shop_images/miouvalab-hero.jpg"
       }
     },
-    "newsletter": {
-      "type": "section",
-      "blocks": {
-        "nl_sub": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>Dermatologist-informed skincare, made simple. Get early access and guidance.</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0,
-            "text_color": "{{ settings.color_palette.background }}"
-          },
-          "blocks": {}
-        },
-        "nl_form": {
-          "type": "email-signup",
-          "name": "t:names.email_signup",
-          "settings": {
-            "width": "fill",
-            "custom_width": 100,
-            "heading": "Get MiouvaLab updates",
-            "heading_text_color": "{{ settings.color_palette.background }}",
-            "heading_preset": "h3",
-            "border_style": "all",
-            "input_style": "default",
-            "border_width": 1,
-            "border_radius": 100,
-            "input_background_color": "{{ settings.color_palette.background }}",
-            "input_text_color": "#1A1A1A",
-            "input_border_color": "{{ settings.color_palette.background }}",
-            "input_type_preset": "paragraph",
-            "style_class": "button",
-            "custom_button_background": "{{ settings.color_palette.background }}",
-            "custom_button_text": "#1A1A1A",
-            "custom_button_border": "{{ settings.color_palette.background }}",
-            "link_text_color": "{{ settings.color_palette.background }}",
-            "display_type": "button",
-            "label": "Subscribe",
-            "integrated_button": true,
-            "button_type_preset": "paragraph",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "nl_sub",
-        "nl_form"
-      ],
-      "name": "Section",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "background_color": "#1A1A1A",
-        "padding-block-start": 56,
-        "padding-block-end": 56
-      }
-    },
-    "founder": {
-      "type": "section",
-      "blocks": {
-        "ftxt": {
-          "type": "group",
-          "name": "t:names.group",
-          "settings": {
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 14,
-            "width": "custom",
-            "custom_width": 50,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "open_in_new_tab": false,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "fh": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "text": "<p><em>A note from our founders</em></p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "custom",
-                "font": "var(--font-accent--family)",
-                "font_size": "1.9rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "fp1": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "text": "<p>We believe beauty doesn&rsquo;t need to be complicated to work. Every MiouvaLab product is built on a simple principle: ingredients that make sense, design that has a purpose, and an experience that feels good every day.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "paragraph",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "fp2": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "text": "<p>This isn&rsquo;t just a product &mdash; it&rsquo;s a few seconds you take for yourself in the middle of a busy morning.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "paragraph",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "fsig": {
-              "type": "image",
-              "name": "t:names.image",
-              "settings": {
-                "image": "shopify://shop_images/miouvalab-signature.png",
-                "image_ratio": "adapt",
-                "width": "custom",
-                "custom_width": 55,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "fh",
-            "fp1",
-            "fp2",
-            "fsig"
-          ]
-        },
-        "fimg": {
-          "type": "image",
-          "name": "t:names.image",
-          "settings": {
-            "image": "shopify://shop_images/miouvalab-founder2.png",
-            "image_ratio": "portrait",
-            "width": "custom",
-            "custom_width": 50,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 8,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ftxt",
-        "fimg"
-      ],
-      "name": "Section",
-      "settings": {
-        "content_direction": "row",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "center",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 56,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "background_color": "#EAE3D7",
-        "padding-block-start": 56,
-        "padding-block-end": 56
-      }
-    },
-    "testi_head": {
-      "type": "section",
-      "blocks": {
-        "h": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p><em>What our customers say</em></p>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "custom",
-            "font": "var(--font-accent--family)",
-            "font_size": "1.9rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "s": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>Reviews from verified Amazon customers</p>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-body--family)",
-            "font_size": "0.9rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "h",
-        "s"
-      ],
-      "name": "Section",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "center",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "background_color": "{{ settings.color_palette.background }}",
-        "padding-block-start": 48,
-        "padding-block-end": 8
-      }
-    },
-    "testi_marquee": {
-      "type": "marquee",
-      "blocks": {
-        "m0": {
-          "type": "text",
-          "settings": {
-            "text": "<p>★★★★★  &ldquo;The rollerball makes the process mess-free and pleasant... makes my skincare feel a little bit more like pampering.&rdquo;  &mdash; Ajax</p>",
-            "type_preset": "custom",
-            "font": "var(--font-accent--family)",
-            "font_size": "1.15rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "nowrap",
-            "width": "fit-content"
-          }
-        },
-        "m1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>★★★★★  &ldquo;The rollerball and metal tip make applying it to the delicate eye area feel like a cooling massage.&rdquo;  &mdash; In Depth Explorer</p>",
-            "type_preset": "custom",
-            "font": "var(--font-accent--family)",
-            "font_size": "1.15rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "nowrap",
-            "width": "fit-content"
-          }
-        },
-        "m2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>★★★★★  &ldquo;I really like how this feels on my skin, especially the cooling roller under the eyes. It feels refreshing.&rdquo;  &mdash; Dena</p>",
-            "type_preset": "custom",
-            "font": "var(--font-accent--family)",
-            "font_size": "1.15rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "nowrap",
-            "width": "fit-content"
-          }
-        },
-        "m3": {
-          "type": "text",
-          "settings": {
-            "text": "<p>★★★★★  &ldquo;The stainless steel rollerball feels instantly ice-cold against the skin.&rdquo;  &mdash; Sam Veltre</p>",
-            "type_preset": "custom",
-            "font": "var(--font-accent--family)",
-            "font_size": "1.15rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "nowrap",
-            "width": "fit-content"
-          }
-        },
-        "m4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>★★★★★  &ldquo;In minutes, at least my eyes look like I've had a decent night sleep!&rdquo;  &mdash; Verified Amazon Customer</p>",
-            "type_preset": "custom",
-            "font": "var(--font-accent--family)",
-            "font_size": "1.15rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "nowrap",
-            "width": "fit-content"
-          }
-        }
-      },
-      "block_order": [
-        "m0",
-        "m1",
-        "m2",
-        "m3",
-        "m4"
-      ],
-      "name": "Testimonials",
-      "settings": {
-        "movement_direction": "normal",
-        "background_color": "{{ settings.color_palette.background }}",
-        "padding-block-start": 8,
-        "padding-block-end": 48,
-        "gap_between_elements": 64
-      }
-    },
     "spotlight": {
       "type": "section",
       "blocks": {
@@ -1830,6 +1360,476 @@
         "border_opacity": 100,
         "border_radius": 0,
         "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      }
+    },
+    "testi_head": {
+      "type": "section",
+      "blocks": {
+        "h": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><em>What our customers say</em></p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "1.9rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "s": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Reviews from verified Amazon customers</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "0.9rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "h",
+        "s"
+      ],
+      "name": "Section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 48,
+        "padding-block-end": 8
+      }
+    },
+    "testi_marquee": {
+      "type": "marquee",
+      "blocks": {
+        "m0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>★★★★★  &ldquo;The rollerball makes the process mess-free and pleasant... makes my skincare feel a little bit more like pampering.&rdquo;  &mdash; Ajax</p>",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "1.15rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          }
+        },
+        "m1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>★★★★★  &ldquo;The rollerball and metal tip make applying it to the delicate eye area feel like a cooling massage.&rdquo;  &mdash; In Depth Explorer</p>",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "1.15rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          }
+        },
+        "m2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>★★★★★  &ldquo;I really like how this feels on my skin, especially the cooling roller under the eyes. It feels refreshing.&rdquo;  &mdash; Dena</p>",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "1.15rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          }
+        },
+        "m3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>★★★★★  &ldquo;The stainless steel rollerball feels instantly ice-cold against the skin.&rdquo;  &mdash; Sam Veltre</p>",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "1.15rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          }
+        },
+        "m4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>★★★★★  &ldquo;In minutes, at least my eyes look like I've had a decent night sleep!&rdquo;  &mdash; Verified Amazon Customer</p>",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "1.15rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          }
+        }
+      },
+      "block_order": [
+        "m0",
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "movement_direction": "normal",
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 8,
+        "padding-block-end": 48,
+        "gap_between_elements": 64
+      }
+    },
+    "founder": {
+      "type": "section",
+      "blocks": {
+        "ftxt": {
+          "type": "group",
+          "name": "t:names.group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 14,
+            "width": "custom",
+            "custom_width": 50,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "open_in_new_tab": false,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "fh": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p><em>A note from our founders</em></p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "custom",
+                "font": "var(--font-accent--family)",
+                "font_size": "1.9rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "fp1": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>We believe beauty doesn&rsquo;t need to be complicated to work. Every MiouvaLab product is built on a simple principle: ingredients that make sense, design that has a purpose, and an experience that feels good every day.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "fp2": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>This isn&rsquo;t just a product &mdash; it&rsquo;s a few seconds you take for yourself in the middle of a busy morning.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "fsig": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/miouvalab-signature.png",
+                "image_ratio": "adapt",
+                "width": "custom",
+                "custom_width": 55,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "fh",
+            "fp1",
+            "fp2",
+            "fsig"
+          ]
+        },
+        "fimg": {
+          "type": "image",
+          "name": "t:names.image",
+          "settings": {
+            "image": "shopify://shop_images/miouvalab-founder2.png",
+            "image_ratio": "portrait",
+            "width": "custom",
+            "custom_width": 50,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 8,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ftxt",
+        "fimg"
+      ],
+      "name": "Section",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 56,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "background_color": "#EAE3D7",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      }
+    },
+    "newsletter": {
+      "type": "section",
+      "blocks": {
+        "nl_sub": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Dermatologist-informed skincare, made simple. Get early access and guidance.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "text_color": "{{ settings.color_palette.background }}"
+          },
+          "blocks": {}
+        },
+        "nl_form": {
+          "type": "email-signup",
+          "name": "t:names.email_signup",
+          "settings": {
+            "width": "fill",
+            "custom_width": 100,
+            "heading": "Get MiouvaLab updates",
+            "heading_text_color": "{{ settings.color_palette.background }}",
+            "heading_preset": "h3",
+            "border_style": "all",
+            "input_style": "default",
+            "border_width": 1,
+            "border_radius": 100,
+            "input_background_color": "{{ settings.color_palette.background }}",
+            "input_text_color": "#1A1A1A",
+            "input_border_color": "{{ settings.color_palette.background }}",
+            "input_type_preset": "paragraph",
+            "style_class": "button",
+            "custom_button_background": "{{ settings.color_palette.background }}",
+            "custom_button_text": "#1A1A1A",
+            "custom_button_border": "{{ settings.color_palette.background }}",
+            "link_text_color": "{{ settings.color_palette.background }}",
+            "display_type": "button",
+            "label": "Subscribe",
+            "integrated_button": true,
+            "button_type_preset": "paragraph",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "nl_sub",
+        "nl_form"
+      ],
+      "name": "Section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "background_color": "#1A1A1A",
         "padding-block-start": 56,
         "padding-block-end": 56
       }
