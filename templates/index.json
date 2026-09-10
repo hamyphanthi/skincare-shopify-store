@@ -246,12 +246,21 @@
                 "custom_width_mobile": 100
               },
               "blocks": {}
+            },
+            "sp_price": {
+              "type": "custom-liquid",
+              "name": "t:names.custom_liquid",
+              "settings": {
+                "custom_liquid": "{%- assign spotlight_product = all_products['miouvalab-under-eye-roller-serum'] -%}\n{%- if spotlight_product != blank -%}\n  <div class=\"text-block h5\"><p>{{ spotlight_product.price | money }}</p></div>\n{%- endif -%}"
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "sp_h",
             "sp_p1",
             "sp_p2",
+            "sp_price",
             "sp_cta"
           ]
         }
