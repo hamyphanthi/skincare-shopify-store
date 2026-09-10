@@ -53,30 +53,49 @@
   {% endif %}
 
   {% capture list_items %}
+    {% assign rendered_count = 0 %}
     {% for collection in section_collections limit: max_items %}
+      {% comment %}
+        ============ EMPTY COLLECTION GUARD ============
+        A collection with no products renders as a card with a title and no
+        image, which reads as an unfinished store rather than a small catalogue.
+        Skip those so the grid only ever shows collections a shopper can browse.
+        Only applies when collections were picked in the editor — the onboarding
+        placeholder path below passes blank entries and must still render.
+      {% endcomment %}
+      {% if section.settings.collection_list != blank and collection.all_products_count == 0 %}
+        {% continue %}
+      {% endif %}
+      {% if rendered_count > 0 %}
+        <!--@list/split-->
+      {% endif %}
       <div class="resource-list__item">
         {% content_for 'block', type: '_collection-card', id: 'static-collection-card', closest.collection: collection %}
       </div>
-      {% unless forloop.last %}
-        <!--@list/split-->
-      {% endunless %}
+      {% assign rendered_count = rendered_count | plus: 1 %}
     {% endfor %}
   {% endcapture %}
 
   {% liquid
     # Create an array from the list items to be used for different layout types
     assign list_items_array = list_items | strip | split: '<!--@list/split-->'
+
+    # Carousels size themselves off the number of cards that actually rendered,
+    # not the number the merchant selected.
+    assign slide_count = rendered_count
   %}
 
-  {% render 'resource-list',
-    list_items: list_items,
-    list_items_array: list_items_array,
-    settings: section.settings,
-    carousel_ref: 'collectionList',
-    slide_count: max_items,
-    content_type: 'collections',
-    test_id: 'collections-list-grid'
-  %}
+  {% if rendered_count > 0 %}
+    {% render 'resource-list',
+      list_items: list_items,
+      list_items_array: list_items_array,
+      settings: section.settings,
+      carousel_ref: 'collectionList',
+      slide_count: slide_count,
+      content_type: 'collections',
+      test_id: 'collections-list-grid'
+    %}
+  {% endif %}
 </div>
 
 {% schema %}
