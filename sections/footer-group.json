@@ -52,7 +52,7 @@
             "c1_name": {
               "type": "text",
               "settings": {
-                "text": "<p><em>MiouvaLab</em></p>",
+                "text": "<p><em>MiouvaLab.</em></p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -96,11 +96,37 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "c1_legal": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>RAEVA LLC<br>5900 Balcones Drive STE 100, Austin, TX 78731, US<br><a href=\"mailto:hello@shopmiouvalab.com\">hello@shopmiouvalab.com</a></p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "0.75rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "c1_name",
-            "c1_blurb"
+            "c1_blurb",
+            "c1_legal"
           ]
         },
         "col2": {

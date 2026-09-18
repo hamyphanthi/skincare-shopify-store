@@ -115,9 +115,19 @@
   href="{{ canonical_url }}"
 >
 
-{% if page_description %}
+{%- liquid
+  # The homepage has no page_description unless one is set in Online Store >
+  # Preferences. This fallback keeps the index page from shipping with no meta
+  # description at all; anything set in Preferences still wins.
+  assign meta_description = page_description
+  if meta_description == blank and request.page_type == 'index'
+    assign meta_description = 'Dermatologist-informed under-eye care from MiouvaLab. One roller serum for dark circles, puffiness, fine lines and dryness. Free US shipping over $75.'
+  endif
+-%}
+
+{% if meta_description %}
   <meta
     name="description"
-    content="{{ page_description | escape }}"
+    content="{{ meta_description | escape }}"
   >
 {% endif %}

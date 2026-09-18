@@ -183,7 +183,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>The MiouvaLab Under Eye Roller Serum pairs a 316L surgical steel roller head with a multi-active serum. It is made for the eye area, and nothing else.</p>",
+                "text": "<p>The MiouvaLab. Under Eye Roller Serum pairs a 316L stainless steel roller head with a multi-active serum. It is made for the eye area, and nothing else.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -251,7 +251,7 @@
               "type": "custom-liquid",
               "name": "t:names.custom_liquid",
               "settings": {
-                "custom_liquid": "{%- assign spotlight_product = all_products['miouvalab-under-eye-roller-serum'] -%}\n{%- if spotlight_product != blank -%}\n  <div class=\"text-block h4\"><p>{{ spotlight_product.price | money }}</p></div>\n{%- endif -%}"
+                "custom_liquid": "{%- comment -%}\n  PRODUCT HANDLE REFERENCED HERE: 'miouvalab-under-eye-roller-serum'\n  If the product handle changes in Shopify admin, update it here or this block\n  silently stops rendering the price. Renaming the product TITLE is safe --\n  Shopify keeps the handle. See also the CTA button link in this same section.\n{%- endcomment -%}\n{%- assign spotlight_product = all_products['miouvalab-under-eye-roller-serum'] -%}\n{%- if spotlight_product != blank and spotlight_product.available -%}\n  <div class=\"text-block h4\"><p>{{ spotlight_product.price | money }}</p></div>\n{%- endif -%}"
               },
               "blocks": {}
             }
@@ -1617,7 +1617,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>We believe beauty doesn&rsquo;t need to be complicated to work. Every MiouvaLab product is built on a simple principle: ingredients that make sense, design that has a purpose, and an experience that feels good every day.</p>",
+                "text": "<p>We believe beauty doesn&rsquo;t need to be complicated to work. Every MiouvaLab. product is built on a simple principle: ingredients that make sense, design that has a purpose, and an experience that feels good every day.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1697,7 +1697,7 @@
           "type": "image",
           "name": "t:names.image",
           "settings": {
-            "image": "shopify://shop_images/miouvalab-founder2.png",
+            "image": "shopify://shop_images/miouvalab-founder-portrait.jpg",
             "image_ratio": "portrait",
             "width": "custom",
             "custom_width": 50,
@@ -1783,7 +1783,7 @@
           "settings": {
             "width": "fill",
             "custom_width": 100,
-            "heading": "Get MiouvaLab updates",
+            "heading": "Get MiouvaLab. updates",
             "heading_text_color": "{{ settings.color_palette.background }}",
             "heading_preset": "h3",
             "border_style": "all",
