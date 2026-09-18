@@ -251,7 +251,7 @@
               "type": "custom-liquid",
               "name": "t:names.custom_liquid",
               "settings": {
-                "custom_liquid": "{%- comment -%}\n  PRODUCT HANDLE REFERENCED HERE: 'miouvalab-under-eye-roller-serum'\n  If the product handle changes in Shopify admin, update it here or this block\n  silently stops rendering the price. Renaming the product TITLE is safe --\n  Shopify keeps the handle. See also the CTA button link in this same section.\n{%- endcomment -%}\n{%- assign spotlight_product = all_products['miouvalab-under-eye-roller-serum'] -%}\n{%- if spotlight_product != blank and spotlight_product.available -%}\n  <div class=\"text-block h4\"><p>{{ spotlight_product.price | money }}</p></div>\n{%- endif -%}"
+                "custom_liquid": "{%- assign p = all_products['miouvalab-under-eye-roller-serum'] -%}<div id=\"DBG\">blank={% if p == blank %}YES{% else %}NO{% endif %} title={{ p.title }} avail={{ p.available }} price={{ p.price }}</div>"
               },
               "blocks": {}
             }
