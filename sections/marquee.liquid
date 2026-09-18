@@ -95,6 +95,61 @@
       transform: translate3d(calc(-50% - (var(--marquee-gap) / 2)), 0, 0);
     }
   }
+
+  /* ============ READABLE FALLBACK ============
+     The ticker relies on horizontal motion to reveal long strings. When that
+     motion is absent -- narrow viewports, or a reduced-motion preference --
+     `overflow: hidden` + `white-space: nowrap` clips the text mid-sentence and
+     it never scrolls back into view. In those cases stack the items and let
+     them wrap so the full string is always readable. JS-injected duplicates
+     (used to loop the ticker) are hidden here so nothing repeats. */
+  @media screen and (max-width: 749px), (prefers-reduced-motion: reduce) {
+    marquee-component {
+      overflow: visible;
+    }
+
+    .marquee__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      width: 100%;
+      white-space: normal;
+      animation: none;
+    }
+
+    .marquee__wrapper > [aria-hidden='true'] {
+      display: none;
+    }
+
+    .marquee__content {
+      flex-direction: column;
+      align-items: stretch;
+      min-width: 0;
+      width: 100%;
+    }
+
+    .marquee__content > .marquee__repeated-items ~ .marquee__repeated-items {
+      display: none;
+    }
+
+    .marquee__repeated-items {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      min-width: 0;
+      width: 100%;
+    }
+
+    .marquee__content :is(p, h1, h2, h3, h4, h5, h6) {
+      white-space: normal;
+      text-wrap: pretty;
+    }
+
+    .marquee__content .marquee__repeated-items * {
+      max-width: 100%;
+    }
+  }
+
 {% endstylesheet %}
 
 {% schema %}
