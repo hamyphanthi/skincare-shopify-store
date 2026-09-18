@@ -1,0 +1,17 @@
+# Secrets / credentials — never commit
+.env
+.env.*
+!.env.example
+*.token
+.shopify-admin-token
+
+# OS cruft
+.DS_Store
+**/.DS_Store
+
+# Local working scratch for Claude Code sessions
+.work/
+
+# Source design files (58MB of print/A+ masters) — kept out of the theme repo.
+# These are NOT theme assets; Shopify rejects subfolders inside assets/.
+design-assets/

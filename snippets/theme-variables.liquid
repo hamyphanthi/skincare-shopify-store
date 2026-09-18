@@ -1,0 +1,36 @@
+{% doc %}
+  Brand design tokens.
+
+  Purpose: expose the locked brand palette as named CSS custom properties so
+  sections can reference intent (--brand-sage) instead of raw hex values.
+
+  Inputs:  settings.color_palette (theme settings — the single source of truth,
+           editable by Rachel in the theme editor under Colors)
+  Outputs: --brand-* custom properties on :root
+
+  Rendered from layout/theme.liquid after 'color-palette' so these sit alongside
+  Horizon's own tokens. Deliberately does NOT override Horizon's --color-* or
+  --font-* variables: those stay driven by theme settings so editor changes keep
+  working. Typography is set via the font pickers in config/settings_data.json
+  (Lora for headings/accent, Manrope for body/subheading).
+{% enddoc %}
+
+{% style %}
+  :root {
+    /* ============ BRAND PALETTE ============ */
+    /* Mirrors settings.color_palette. Change the values in the theme editor,
+       not here — these aliases follow automatically. */
+    --brand-porcelain: {{ settings.color_palette.background }};
+    --brand-ink: {{ settings.color_palette.foreground }};
+    --brand-cocoa: {{ settings.color_palette.color1 }};
+    --brand-sage: {{ settings.color_palette.color2 }};
+    --brand-card: {{ settings.color_palette.color3 }};
+
+    /* RGB triplets for rgb(... / <alpha>) composition */
+    --brand-porcelain-rgb: {{ settings.color_palette.background.rgb }};
+    --brand-ink-rgb: {{ settings.color_palette.foreground.rgb }};
+    --brand-cocoa-rgb: {{ settings.color_palette.color1.rgb }};
+    --brand-sage-rgb: {{ settings.color_palette.color2.rgb }};
+    --brand-card-rgb: {{ settings.color_palette.color3.rgb }};
+  }
+{% endstyle %}
